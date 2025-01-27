@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace CthulhuCampaignManager.Models
 {
     public class SessionViewModel
     {
+        [HiddenInput]
         public int Id { get; set; }
         public int CampaignId { get; set; }
         public DateOnly Date { get; set; }

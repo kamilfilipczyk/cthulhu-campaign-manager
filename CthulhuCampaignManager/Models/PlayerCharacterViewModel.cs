@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CthulhuCampaignManager.Data;
+using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
 namespace CthulhuCampaignManager.Models
@@ -14,7 +15,7 @@ namespace CthulhuCampaignManager.Models
 
         [Required(ErrorMessage = "Age is required!")]
         public int Age { get; set; }
-        public int ProfessionId { get; set; }
+        public Profession Profession { get; set; }
 
         [Required(ErrorMessage = "Character must have some description!")]
         [StringLength(500, ErrorMessage = "Description is too long!")]

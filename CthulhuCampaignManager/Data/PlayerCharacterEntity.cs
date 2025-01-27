@@ -3,6 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CthulhuCampaignManager.Data
 {
+    public enum Profession
+    {
+        Detective,
+        PoliceOfficer,
+        Archeologist
+    }
     [Table("PlayerCharacters")]
     public class PlayerCharacterEntity
     {
@@ -12,7 +18,7 @@ namespace CthulhuCampaignManager.Data
         public string Name { get; set; }
         [Required]
         public int Age { get; set; }
-        public int ProfessionId { get; set; }
+        public Profession Profession { get; set; }
         [Required]
         public string Description { get; set; }
         public string Status { get; set; }

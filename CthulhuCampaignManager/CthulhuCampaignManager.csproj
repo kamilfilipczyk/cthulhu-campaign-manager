@@ -10,4 +10,8 @@
     <Folder Include="Views\Campaign\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CthulhuCampaignManager.Domain\CthulhuCampaignManager.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

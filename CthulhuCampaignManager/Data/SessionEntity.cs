@@ -11,6 +11,8 @@ namespace CthulhuCampaignManager.Data
         public int Id { get; set; }
         public int CampaignId { get; set; }
         public DateTime Date { get; set; }
+
+        [MaxLength(500)]
         public string Description { get; set; }
 
 

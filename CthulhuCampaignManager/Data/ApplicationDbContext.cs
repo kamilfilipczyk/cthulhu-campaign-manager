@@ -1,5 +1,4 @@
-﻿using CthulhuCampaignManager.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace CthulhuCampaignManager.Data
 {

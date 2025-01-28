@@ -8,7 +8,7 @@ namespace CthulhuCampaignManager.Models
         [HiddenInput]
         public int Id { get; set; }
         public int CampaignId { get; set; }
-        public DateOnly Date { get; set; }
+        public DateTime Date { get; set; }
 
         [Required(ErrorMessage = "A session must have some description!")]
         [StringLength(500, ErrorMessage = "Description is too long!")]

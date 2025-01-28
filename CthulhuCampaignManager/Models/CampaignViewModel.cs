@@ -19,5 +19,9 @@ namespace CthulhuCampaignManager.Models
         public DateTime CreationDate { get; set; } = DateTime.UtcNow;
         public Status Status { get; set; } = Status.Ongoing;
 
+
+        public List<PlayerCharacterViewModel> PlayerCharacters { get; set; }
+        public List<SessionViewModel> Sessions { get; set; }
+
     }
 }

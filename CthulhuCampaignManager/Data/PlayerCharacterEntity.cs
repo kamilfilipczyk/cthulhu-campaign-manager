@@ -18,6 +18,7 @@ namespace CthulhuCampaignManager.Data
         public int Id { get; set; }
 
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
 
         [Required]
@@ -25,6 +26,7 @@ namespace CthulhuCampaignManager.Data
         public Profession Profession { get; set; }
 
         [Required]
+        [MaxLength(500)]
         public string Description { get; set; }
         public Status Status { get; set; }
         public int CampaignId { get; set; }

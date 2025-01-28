@@ -20,8 +20,8 @@ namespace CthulhuCampaignManager.Models
         [Required(ErrorMessage = "Character must have some description!")]
         [StringLength(500, ErrorMessage = "Description is too long!")]
         public string Description { get; set; }
-        public string Status { get; set; }
+        public Status Status { get; set; }
         public int CampaignId { get; set; }
-        public int PlayerId { get; set; }
+        //public int PlayerId { get; set; }
     }
 }

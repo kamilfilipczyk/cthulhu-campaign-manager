@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CthulhuCampaignManager", "CthulhuCampaignManager\CthulhuCampaignManager.csproj", "{8D2040BB-D094-4ADA-900A-279CD2FFC799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CthulhuCampaignManager.Domain", "CthulhuCampaignManager.Domain\CthulhuCampaignManager.Domain.csproj", "{2197805B-6953-4FCC-904F-38463D4C9EA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8D2040BB-D094-4ADA-900A-279CD2FFC799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D2040BB-D094-4ADA-900A-279CD2FFC799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D2040BB-D094-4ADA-900A-279CD2FFC799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2197805B-6953-4FCC-904F-38463D4C9EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2197805B-6953-4FCC-904F-38463D4C9EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2197805B-6953-4FCC-904F-38463D4C9EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2197805B-6953-4FCC-904F-38463D4C9EA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

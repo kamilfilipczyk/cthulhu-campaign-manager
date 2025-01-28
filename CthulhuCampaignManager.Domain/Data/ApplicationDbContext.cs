@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace CthulhuCampaignManager.Data
+namespace CthulhuCampaignManager.Domain.Data
 {
     public class ApplicationDbContext : DbContext
     {

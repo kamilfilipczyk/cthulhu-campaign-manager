@@ -1,4 +1,4 @@
-﻿using CthulhuCampaignManager.Data;
+﻿using CthulhuCampaignManager.Domain.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 

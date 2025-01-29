@@ -1,4 +1,5 @@
 ﻿using CthulhuCampaignManager.Domain.Data;
+using CthulhuCampaignManager.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CthulhuCampaignManager.Controllers
@@ -10,7 +11,15 @@ namespace CthulhuCampaignManager.Controllers
         {
             _dbcontext = dbcontext;
         }
+        
+        [HttpGet]
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult AddNew()
         {
             return View();
         }
